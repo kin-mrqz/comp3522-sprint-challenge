@@ -1,0 +1,15 @@
+station_id,station_name,region,n,mean_rain_mm
+H15,Stanley,Hong Kong Island,1096,6.322262773722628
+H24,Wong Chuk Hang,Hong Kong Island,1096,6.322262773722628
+K03,Kwun Tong,Kowloon,1096,6.322262773722628
+RF001,Lau Fau Shan,New Territories,1096,5.7327554744525555
+RF004,Tai Mei Tuk,New Territories,1096,6.410857664233577
+RF013,Ngong Ping,Lantau,1096,5.598540145985401
+RF014,Hong Kong International Airport,Lantau,1096,5.682299270072993
+RF015,Ta Kwu Ling,New Territories,1096,6.402919708029198
+RF020,Sha Tin,New Territories,1096,6.5457116788321175
+RF022,Sham Shui Po,Kowloon,1096,6.322262773722628
+RF024,King's Park,Kowloon,1096,6.322262773722628
+RF025,Kai Tak,Kowloon,1096,6.322262773722628
+RF027,Happy Valley,Hong Kong Island,1096,6.322262773722628
+RF028,The Peak,Hong Kong Island,1096,6.322262773722628

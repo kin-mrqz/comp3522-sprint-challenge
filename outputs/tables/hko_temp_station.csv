@@ -1,0 +1,15 @@
+station_code,station_name,region,n,mean_max_temp_c
+HKA,Hong Kong International Airport,Lantau,1096,27.988777372262774
+HKS,Wong Chuk Hang,Hong Kong Island,1095,27.36675799086758
+HPV,Happy Valley,Hong Kong Island,1096,28.093156934306567
+KP,King's Park,Kowloon,1096,26.928193430656933
+KTG,Kwun Tong,Kowloon,1096,26.972627737226276
+LFS,Lau Fau Shan,New Territories,1089,28.268411386593204
+NGP,Ngong Ping,Lantau,1003,23.321934197407778
+PLC,Tai Mei Tuk,New Territories,1089,27.016345270890724
+SE1,Kai Tak,Kowloon,1096,27.081204379562045
+SHA,Sha Tin,New Territories,1086,27.36850828729282
+SSP,Sham Shui Po,Kowloon,1094,27.87669104204753
+STY,Stanley,Hong Kong Island,1085,26.70082949308756
+TKL,Ta Kwu Ling,New Territories,1094,27.9827239488117
+VP1,The Peak,Hong Kong Island,1096,24.524361313868614
