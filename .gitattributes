@@ -1,0 +1,20 @@
+# Normalize text files to LF in the repository so Windows checkouts do not
+# produce whole-file whitespace diffs.
+* text=auto
+*.ipynb text
+*.csv text
+
+# Raw inputs stay byte-for-byte; do not rewrite their line endings.
+data/raw/*.csv -text
+data/aqhi_data.csv -text
+
+# Binary formats must never be line-ending converted.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.parquet binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.zip binary
