@@ -1,5 +1,9 @@
 # COMP3522 sprint challenge
 
+Private repository: https://github.com/kin-mrqz/comp3522-sprint-challenge
+
+`avcode-exe` and `dancheung555` have write invitations. Accept the invite, then clone and stay on `main`.
+
 Working repo for the 24 November sprint. The graded piece is a PDF of at most 12 slides, plus these notebooks as the workings. Read `TEAM.md` before 1:00. The clock, the three tracks, and the file each person must push are in there.
 
 ## Setup
