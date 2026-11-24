@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {"id": 1, "text": "", "answer_sentence": "", "owner": "A"},
+    {"id": 2, "text": "", "answer_sentence": "", "owner": "B"},
+    {"id": 3, "text": "", "answer_sentence": "", "owner": "C"}
+  ],
+  "row_unit": "",
+  "target": "",
+  "decision_time": "",
+  "useless_columns": [],
+  "join_keys": [],
+  "entity_risk": "",
+  "native_graph": null,
+  "graph_kind": null,
+  "graph_reason": "",
+  "split_rule": "time if a time column exists, otherwise stratified 70/15/15",
+  "train_end": "",
+  "val_end": "",
+  "model_needed": null
+}

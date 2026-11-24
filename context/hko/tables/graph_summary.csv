@@ -1,0 +1,2 @@
+graph,n_hourly_stations,n_nodes,n_dropped_no_coords,dropped_station_ids,n_edges,n_components,sigma_km,median_degree,max_degree,k,max_edge_km
+cowin,40,39,1,6110,221,2,5.77035359975207,9.0,20,4,8.0
