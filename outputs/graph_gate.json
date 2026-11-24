@@ -1,0 +1,7 @@
+{
+  "native_graph": false,
+  "reason": "No coordinates and no edge list in aqhi_data.csv. Region and roadside are labels, not a graph.",
+  "kind": null,
+  "evidence": "",
+  "decided_at": "2026-11-24T14:05:14+08:00"
+}

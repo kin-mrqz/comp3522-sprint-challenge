@@ -1,20 +1,43 @@
 {
   "questions": [
-    {"id": 1, "text": "", "answer_sentence": "", "owner": "A"},
-    {"id": 2, "text": "", "answer_sentence": "", "owner": "B"},
-    {"id": 3, "text": "", "answer_sentence": "", "owner": "C"}
+    {
+      "id": 1,
+      "text": "Key trends in hourly AQHI, 2021\u20132025.",
+      "answer_sentence": "Poor hours follow the afternoon and September. Roadside stations have fewer Low hours, not more hours at or above 7.",
+      "owner": "A"
+    },
+    {
+      "id": 2,
+      "text": "Relationship between project weather and AQHI.",
+      "answer_sentence": "Hotter days have a lower daily maximum AQHI because the hot months are cleaner. Within a month that link flips and is weak. Hourly rain disappears; daily rain shrinks but stays negative.",
+      "owner": "B"
+    },
+    {
+      "id": 3,
+      "text": "Conditions that raise the chance of going outside safely.",
+      "answer_sentence": "At Sham Shui Po, Kwun Tong, and Sha Tin, stay in when the score is at or above the fit-year threshold that holds the false-positive rate to 20%.",
+      "owner": "C"
+    }
   ],
-  "row_unit": "",
-  "target": "",
-  "decision_time": "",
-  "useless_columns": [],
-  "join_keys": [],
-  "entity_risk": "",
-  "native_graph": null,
+  "row_unit": "station-hour",
+  "target": "aqhi",
+  "decision_time": "the clock hour of the reading",
+  "useless_columns": [
+    "Daily Max rows are held out of the hourly rates",
+    "2026 rows are outside Task 1"
+  ],
+  "join_keys": [
+    "Sham Shui Po=SSP",
+    "Kwun Tong=KTG",
+    "Sha Tin=SHA"
+  ],
+  "entity_risk": "A trailing asterisk means the station was down and a similar station was substituted.",
+  "native_graph": false,
   "graph_kind": null,
-  "graph_reason": "",
-  "split_rule": "time if a time column exists, otherwise stratified 70/15/15",
-  "train_end": "",
-  "val_end": "",
-  "model_needed": null
+  "graph_reason": "No coordinates and no edge list in aqhi_data.csv. Region and roadside are labels, not a graph.",
+  "split_rule": "Describe 2021\u20132025. Fit the three-station score on the years with hourly weather and check it on 2024\u20132025. The threshold is not chosen on the check years.",
+  "train_end": "2023-12-31",
+  "val_end": "2025-12-31",
+  "model_needed": false,
+  "audit_numeric_hours_all_years": 839697
 }
