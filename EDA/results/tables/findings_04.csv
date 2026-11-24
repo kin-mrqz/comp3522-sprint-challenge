@@ -1,0 +1,6 @@
+section,finding,value,unit,figure,reading
+spatial,Roadside stations sit above general stations,3.50 vs 3.28,mean AQHI,F28,"The 18-station average mixes two exposure regimes; the scenario should name the station or district, not 'Hong Kong'."
+spatial,Stations are not one homogeneous network,anomaly correlation off-diagonal mean 0.93,Pearson r,F30,Co-movement is high but not uniform; a territory mean smooths real district differences.
+spatial,Spatial spread widens on dirty days,"daily range median 0.96, max 3.7; corr(range, territory mean) 0.46",AQHI,F32,A territory mean hides that one district can be several bands worse than another on the same day.
+spatial,The roadside gap is largest in the evening,"premium +0.12 to +0.32, peak hour 21:00",mean AQHI,F36,A general-station reading understates roadside exposure exactly when people commute.
+spatial,The heaviest afternoon tail is not the highest-mean station,"Tuen Mun 2.95% of hours >=7, Tap Mun 2.86%, Causeway Bay 1.35%; amplitude-tail r = 0.83",% hours >= 7,F40,"Rural and western New Territories stations swing harder in the afternoon and cross the high band more often, while roadside stations have a higher average but a thinner tail."

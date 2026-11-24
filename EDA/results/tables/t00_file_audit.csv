@@ -1,0 +1,19 @@
+metric,value
+raw_rows_including_daily_max,49225
+raw_columns,20
+station_columns,18
+hourly_rows,47256
+daily_max_rows,1969
+date_min,2021-01-01
+date_max,2026-06-30
+calendar_days_span,2007
+days_in_file,1969
+calendar_days_missing,38
+duplicate_date_hour_rows,0
+hour_values,1..24 plus 'Daily Max'
+cells_in_hourly_long,850608
+cells_missing,10607
+cells_substituted,22873
+cells_censored_10plus,304
+daily_max_equals_hourly_max_share,1.0
+stations,"Central/Western, Southern, Eastern, Kwun Tong, Sham Shui Po, Kwai Chung, Tsuen Wan, Tseung Kwan O, Yuen Long, Tuen Mun, Tung Chung, Tai Po, Sha Tin, North, Tap Mun, Causeway Bay, Central, Mong Kok"

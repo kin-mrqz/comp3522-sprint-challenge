@@ -1,0 +1,19 @@
+station,days_with_no_value,days_partial,days_complete,longest_run_days_no_value,total_missing_hours
+Central/Western,55,11,1941,31,1411
+Southern,55,11,1941,31,1411
+Eastern,55,11,1941,31,1411
+Kwun Tong,55,11,1941,31,1411
+Sham Shui Po,55,11,1941,31,1411
+Kwai Chung,55,11,1941,31,1411
+Tsuen Wan,55,11,1941,31,1411
+Tseung Kwan O,55,11,1941,31,1411
+Yuen Long,55,11,1941,31,1412
+Tuen Mun,55,11,1941,31,1413
+Tung Chung,55,11,1941,31,1412
+Tai Po,55,12,1940,31,1415
+Sha Tin,55,12,1940,31,1415
+North,55,12,1940,31,1415
+Tap Mun,90,225,1692,31,2995
+Causeway Bay,55,13,1939,31,1414
+Central,55,12,1940,31,1430
+Mong Kok,55,12,1940,31,1414

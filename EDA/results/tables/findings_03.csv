@@ -1,0 +1,6 @@
+section,finding,value,unit,figure,reading
+episodes,"High days cluster in spring and autumn, not winter alone","Winter 27.2%, Spring 31.4%, Summer 11.7%, Autumn 29.7% of 401 high days",share of high days,F21,"Summer is clearly the clean season, but the worst months include April and September, so 'winter is bad' is the wrong rule."
+episodes,One spring 2023 episode dominates the record,"2023-02-26 to 2023-03-18, 21 days, peak 10; 2023 had 115 high days vs 56-70 in the other full years",days,F24,The 2023 spring episode is the single largest pattern in the record; a five-year average hides it.
+episodes,Most episodes are short,"45% one day, median 2, longest 21",days,F22,A one-day-ahead warning covers most episodes; multi-day episodes are rare but carry the highest peaks.
+episodes,A high day nearly triples tomorrow's odds,57.2% vs base 20.6% (today not high 11.0%),P(tomorrow high),F25,Persistence is real but not decisive; the day after a high day is the only day with materially elevated risk.
+episodes,Even the hourly episodes are short,"median 6 h, 58% <= 6 h, longest 82 h",hours,F27,"A bad air day is a burst of hours, not a constant condition; timing the outdoor window matters."

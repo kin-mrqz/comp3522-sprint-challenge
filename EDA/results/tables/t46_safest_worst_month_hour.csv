@@ -1,0 +1,17 @@
+month,hour,p_ge7,month_name,rank_type
+1,6,0,Jan,safest
+1,7,0,Jan,safest
+1,8,0,Jan,safest
+1,9,0,Jan,safest
+2,7,0,Feb,safest
+2,6,0,Feb,safest
+3,7,0,Mar,safest
+2,8,0,Feb,safest
+9,16,0.163971,Sep,worst
+9,15,0.16146,Sep,worst
+9,17,0.143179,Sep,worst
+9,14,0.141836,Sep,worst
+9,13,0.114748,Sep,worst
+9,18,0.110116,Sep,worst
+9,19,0.0843284,Sep,worst
+1,17,0.0804598,Jan,worst

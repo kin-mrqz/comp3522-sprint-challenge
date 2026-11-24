@@ -1,0 +1,7 @@
+section,finding,value,unit,figure,reading
+temporal,"Annual territory mean is flat, not trending",2021: 3.36; 2022: 3.29; 2023: 3.41; 2024: 3.21; 2025: 3.31,mean AQHI,F07,Year-to-year spread is small relative to the seasonal swing visible in the same panel.
+temporal,Seasonal cycle is the largest signal,winter Dec-Feb 3.70 vs summer Jun-Aug 2.54,mean AQHI,F08,Summer is the clean season in this index; the annual mean hides a swing about twice the between-year spread.
+temporal,Weekday/weekend difference is negligible,3.325 vs 3.306 (-0.019),mean AQHI,F12,Day-of-week is not a useful lever for the scenario; hour and season are.
+temporal,Persistence decays slowly at hourly scale,"hourly lag1 0.986, lag24 0.748; daily lag1 0.819, lag7 0.332",autocorrelation,F16,Today is a good predictor of the next few hours; a week ahead is nearly independent at the daily level.
+temporal,A construction change sits inside the series,Apr-Dec 2025 vs Apr-Dec 2021-2024: -0.107 AQHI (95% CI -0.462 to +0.249),mean AQHI,F18,"EPD updated the ozone risk factor on 2025-03-22. Any 2025-2026 level must be compared with that caveat, not read as an air-quality trend."
+temporal,No defensible monotonic trend in five annual means,OLS 2021-2025 -0.019/yr (p=0.50); 2021-2024 -0.033/yr (p=0.50),AQHI per year,F13,"With five points and a mid-series method change, the trend estimate is not separable from year-to-year weather variability."

@@ -1,0 +1,4 @@
+condition,p_tomorrow_high,n
+base_rate,0.20555,1946
+today_high,0.5725,400
+today_not_high,0.109961,1546

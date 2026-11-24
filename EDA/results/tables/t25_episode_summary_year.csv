@@ -1,0 +1,7 @@
+year,days_in_file,high_days_any_station,share_days_high,high_days_all_stations,high_days_majority,n_episodes,longest_episode_days,mean_episode_days,max_daily_max
+2021,365,70,0.191781,9,24,32,6,2.1875,10
+2022,365,69,0.189041,12,25,30,11,2.3,10
+2023,341,115,0.337243,3,21,33,21,3.51515,10
+2024,335,56,0.167164,4,19,29,6,1.89655,10
+2025,365,64,0.175342,6,23,33,7,1.93939,10
+2026,181,27,0.149171,2,6,15,6,1.8,10

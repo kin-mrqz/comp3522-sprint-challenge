@@ -1,0 +1,5 @@
+section,finding,value,unit,figure,reading
+decision,"The safest daytime cells are early morning, and the spread across cells is large",min 0.00% (Jan 06:00); max 16.4% (Sep 16:00),% of hours >= 7,F41,Timing and month matter more than the annual average; the worst cell is more than 20 times the best.
+decision,"Month-level risk is driven by a few years, not a stable monthly law",April: 0.0% in 2024 vs 9.2% in 2025; September: 0.1% in 2025 vs 14.9% in 2022,% of hours >= 7,F42,April 2025 and September 2022 create the month-level tail; do not promise a quiet September on the strength of the pooled average.
+decision,"Summer has the fewest high days, spring and autumn the most","June 6%, August 8%, January 29%, April 31%, September 29%",% of days reaching >= 7,F43,"June and August are the safest months; January, April and September carry the highest share of high days."
+decision,The best daytime six-hour window is early morning in every month,Jan: 06:00-11:59 (P>=7 0.4%); Feb: 06:00-11:59 (P>=7 0.1%); Mar: 06:00-11:59 (P>=7 0.3%); Apr: 06:00-11:59 (P>=7 2.3%),window,F45,06:00-11:59 is the lowest-risk block; the afternoon build-up is the thing to avoid.

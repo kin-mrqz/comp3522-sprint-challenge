@@ -1,0 +1,71 @@
+{
+  "data": {
+    "raw_rows": 49225,
+    "stations": 18,
+    "hourly_station_rows": 850608,
+    "date_min": "2021-01-01",
+    "date_max": "2026-06-30",
+    "missing_dates": 38,
+    "missing_share": 0.012469903880518406,
+    "substituted_share": 0.026890177379004194,
+    "censored_cells": 304
+  },
+  "level": {
+    "annual_means": {
+      "2021": 3.364,
+      "2022": 3.29,
+      "2023": 3.408,
+      "2024": 3.214,
+      "2025": 3.307
+    },
+    "winter_mean": 3.701,
+    "summer_mean": 2.537,
+    "trend_2021_2025_per_year": -0.019,
+    "trend_p": 0.5
+  },
+  "episodes": {
+    "high_days": 401,
+    "high_day_share": 0.205,
+    "high_days_by_season_share": {
+      "Winter": 0.272,
+      "Spring": 0.314,
+      "Summer": 0.117,
+      "Autumn": 0.297
+    },
+    "high_day_share_by_month": {
+      "1": 0.292,
+      "2": 0.156,
+      "3": 0.245,
+      "4": 0.307,
+      "5": 0.2,
+      "6": 0.06,
+      "7": 0.168,
+      "8": 0.081,
+      "9": 0.293,
+      "10": 0.257,
+      "11": 0.26,
+      "12": 0.21
+    },
+    "longest_episode_days": 21,
+    "median_hourly_episode_hours": 6
+  },
+  "persistence": {
+    "base": 0.206,
+    "after_high": 0.573,
+    "after_not_high": 0.11
+  },
+  "spatial": {
+    "roadside_mean": 3.5,
+    "general_mean": 3.28,
+    "spatial_range_median": 0.98
+  },
+  "decision": {
+    "worst_month_hour_p_ge7": 0.164,
+    "best_window": "06:00-11:59",
+    "june_high_day_share": 0.06,
+    "august_high_day_share": 0.081,
+    "january_high_day_share": 0.292,
+    "april_high_day_share": 0.307,
+    "september_high_day_share": 0.293
+  }
+}

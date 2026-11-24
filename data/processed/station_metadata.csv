@@ -1,0 +1,19 @@
+station,slug,region,station_type,is_background
+Central/Western,central_western,Hong Kong Island,general,False
+Southern,southern,Hong Kong Island,general,False
+Eastern,eastern,Hong Kong Island,general,False
+Kwun Tong,kwun_tong,Kowloon,general,False
+Sham Shui Po,sham_shui_po,Kowloon,general,False
+Kwai Chung,kwai_chung,New Territories,general,False
+Tsuen Wan,tsuen_wan,New Territories,general,False
+Tseung Kwan O,tseung_kwan_o,New Territories,general,False
+Yuen Long,yuen_long,New Territories,general,False
+Tuen Mun,tuen_mun,New Territories,general,False
+Tung Chung,tung_chung,New Territories,general,False
+Tai Po,tai_po,New Territories,general,False
+Sha Tin,sha_tin,New Territories,general,False
+North,north,New Territories,general,False
+Tap Mun,tap_mun,New Territories,general,True
+Causeway Bay,causeway_bay,Hong Kong Island,roadside,False
+Central,central,Hong Kong Island,roadside,False
+Mong Kok,mong_kok,Kowloon,roadside,False

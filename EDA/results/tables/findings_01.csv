@@ -1,0 +1,6 @@
+section,finding,value,unit,figure,reading
+data_trust,Worst station-year missingness,Tap Mun 2023: 16.1%,% of expected hours,F01,Tap Mun and 2023 carry the missingness; every other station-year is near 1%.
+data_trust,Station-years relying most on substituted values,Tuen Mun 2026 17.7%; North 2026 6.4%; Central 2026 6.2%; North 2022 5.5%; Sham Shui Po 2022 5.3%,% of hours,F02,"Substitution is not uniform: a few station-years are mostly borrowed data, so a station ranking must be read with that in mind."
+data_trust,AQHI is dominated by the low band,"low 1-3 = 59.7%, high >=7 = 1.53%",% of all station-hours,F03,"The index is discrete 1-10; any mean near 3 is a low-air-pollution baseline, and 7+ is the health-relevant tail."
+data_trust,Longest continuous outage,Central/Western: 31 days with no value,days,F04,"The export has three outage shapes: 38 absent dates, 17 all-station blank days in 2023, and a Tap Mun outage in Sep-Oct 2023."
+data_trust,Substitution is not neutral for the level,own 3.319 vs substituted 3.373 (+0.054),mean AQHI,F06,"Borrowed values sit slightly away from own measurements, so station means mix two data-generating processes; report a sensitivity without them."

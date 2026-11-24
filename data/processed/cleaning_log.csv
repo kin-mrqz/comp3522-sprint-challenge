@@ -1,0 +1,9 @@
+rule,source,rows_affected,why
+skip EPD preamble,rows 1-7,7,"title and four numbered notes, no tabular content"
+split Daily Max rows out of hourly table,Hour == 'Daily Max',1969,Daily Max is a derived summary; keeping it would weight every day twice
+strip '*' substitution marker,value cells,22873,"asterisk means the value came from the most similar station, not this station"
+map '10+' to 10 with censored flag,value cells,304,AQHI top category is open-ended; 10 is a lower bound
+map '-' / '*' to missing,value cells,10607,"no AQHI reported; left missing, never imputed"
+keep calendar with 38 absent dates,date index,38,2023-08-25..31 and 2024-12-01..31 absent from the export; gaps stay visible
+"duplicate (date, hour) check",raw,0,0 means the date-hour key is unique before melting
+Daily Max equals max of hourly values,derived check,35101,share matching = 1.0000
