@@ -1,0 +1,19 @@
+{
+  "source_dataset": "NotASI/COMP3522-HKO",
+  "remote_path": "open_meteo/om_historical_weather_hourly.parquet",
+  "resolve_url": "https://huggingface.co/datasets/NotASI/COMP3522-HKO/resolve/main/open_meteo/om_historical_weather_hourly.parquet",
+  "local_parquet": "data/external/weather/om_historical_weather_hourly.parquet",
+  "rows_raw": 368256,
+  "rows_territory_hourly": 26304,
+  "columns": [
+    "obs_time_hkt",
+    "temperature_2m",
+    "relative_humidity_2m",
+    "precipitation",
+    "cloud_cover",
+    "wind_speed_10m",
+    "surface_pressure"
+  ],
+  "timezone": "Asia/Hong_Kong",
+  "note": "Mean over the project's Open-Meteo station points per observation hour."
+}

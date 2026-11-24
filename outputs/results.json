@@ -1,0 +1,174 @@
+{
+  "q1": {
+    "annual_mean": {
+      "2021": 3.365,
+      "2022": 3.29,
+      "2023": 3.412,
+      "2024": 3.214,
+      "2025": 3.309
+    },
+    "month_of_year_mean": {
+      "1": 3.968,
+      "2": 3.43,
+      "3": 3.659,
+      "4": 3.592,
+      "5": 3.284,
+      "6": 2.498,
+      "7": 2.572,
+      "8": 2.55,
+      "9": 3.285,
+      "10": 3.65,
+      "11": 3.701,
+      "12": 3.705
+    },
+    "peak_hour": 16,
+    "trough_hour": 6,
+    "diurnal_range": 1.192,
+    "region_mean": {
+      "New Territories": 3.235,
+      "Kowloon": 3.393,
+      "Hong Kong": 3.439
+    },
+    "category_pct": {
+      "Low": 60.54,
+      "Moderate": 37.85,
+      "High": 0.89,
+      "Very High": 0.71,
+      "Serious": 0.0
+    },
+    "poor_share_pct": 1.6,
+    "n_station_hours": 762101,
+    "year_min": 2024,
+    "year_max": 2023
+  },
+  "q2": {
+    "station_day_rows": 18703,
+    "station_day_poor_share_pct": 0.26,
+    "weather_window": [
+      "2023-01-01",
+      "2025-12-31"
+    ],
+    "n_days": 1041,
+    "correlations": {
+      "precipitation": {
+        "pearson": -0.311,
+        "spearman": -0.585
+      },
+      "relative_humidity_2m": {
+        "pearson": -0.478,
+        "spearman": -0.51
+      },
+      "surface_pressure": {
+        "pearson": 0.443,
+        "spearman": 0.495
+      },
+      "temperature_2m": {
+        "pearson": -0.386,
+        "spearman": -0.476
+      },
+      "cloud_cover": {
+        "pearson": -0.445,
+        "spearman": -0.442
+      },
+      "wind_speed_10m": {
+        "pearson": -0.024,
+        "spearman": -0.016
+      }
+    },
+    "top_variable": "precipitation",
+    "top_spearman": -0.585
+  },
+  "q2_model": {
+    "train_rows": 12133,
+    "valid_rows": 6570,
+    "valid_base_rate": 0.006,
+    "valid_auc": 0.621,
+    "valid_precision": 0.008,
+    "valid_recall": 0.351,
+    "coefficients": {
+      "surface_pressure": -1.39,
+      "precipitation": -1.32,
+      "cloud_cover": -1.3,
+      "temperature_2m": -0.996,
+      "relative_humidity_2m": -0.21,
+      "wind_speed_10m": -0.18
+    },
+    "safest_observed_poor_rate": 0.0,
+    "riskiest_observed_poor_rate": 0.006
+  },
+  "advanced_ts": {
+    "stl": {
+      "resid_std": 0.402,
+      "seasonal_amplitude": 2.234,
+      "trend_start": 3.413,
+      "trend_end": 3.295
+    },
+    "stationarity": {
+      "daily_level": {
+        "adf_stat": -6.889,
+        "adf_p": 0.0,
+        "adf_stationary": true,
+        "kpss_stat": 0.062,
+        "kpss_p": 0.1,
+        "kpss_stationary": true
+      },
+      "monthly_level": {
+        "adf_stat": -5.177,
+        "adf_p": 0.0,
+        "adf_stationary": true,
+        "kpss_stat": 0.039,
+        "kpss_p": 0.1,
+        "kpss_stationary": true
+      }
+    },
+    "mann_kendall": {
+      "monthly": {
+        "tau": -0.051,
+        "p": 0.5738,
+        "sens_slope_per_month": -0.00275,
+        "ols_slope_per_month": -0.00227,
+        "ols_p": 0.6478
+      },
+      "daily": {
+        "tau": -0.019,
+        "p": 0.2122,
+        "sens_slope_per_day": -4.6e-05
+      },
+      "trend_significant_5pct": false
+    },
+    "changepoints": {
+      "n_breaks": 2,
+      "break_months": [
+        "2022-08-01",
+        "2023-11-01"
+      ]
+    },
+    "periodogram": {
+      "dominant_period_days": 325.3,
+      "dominant_freq_cycles_per_day": 0.003074,
+      "annual_freq_cycles_per_day": 0.002738
+    },
+    "forecast": {
+      "train_range": [
+        "2021-01-01",
+        "2023-12-01"
+      ],
+      "test_range": [
+        "2024-01-01",
+        "2025-12-01"
+      ],
+      "seasonal_naive": {
+        "mae": 0.514,
+        "rmse": 0.583,
+        "n": 22
+      },
+      "ets_holt_winters": {
+        "mae": 0.369,
+        "rmse": 0.46,
+        "n": 23
+      },
+      "test_mean": 3.262,
+      "test_std": 0.642
+    }
+  }
+}

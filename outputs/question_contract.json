@@ -1,20 +1,35 @@
 {
   "questions": [
-    {"id": 1, "text": "", "answer_sentence": "", "owner": "A"},
-    {"id": 2, "text": "", "answer_sentence": "", "owner": "B"},
-    {"id": 3, "text": "", "answer_sentence": "", "owner": "C"}
+    {
+      "id": 1,
+      "text": "Identify and analyze key trends in the historical hourly AQHI dataset (2021-2025). Report interesting patterns.",
+      "answer_sentence": "AQHI is strongly seasonal (winter polluted, summer clean) with a mid-afternoon peak and early-morning trough; New Territories stations read higher.",
+      "owner": "A"
+    },
+    {
+      "id": 2,
+      "text": "Choose 1-2 weather variables and report relationships with AQHI; then suggest conditions that maximise Smoking Baby's chance of going outside safely.",
+      "answer_sentence": "Precipitation and humidity are the strongest weather signals; the safest days are warm, humid, wet summer days with low pressure, early in the morning.",
+      "owner": "B"
+    },
+    {
+      "id": 3,
+      "text": "Build a simple risk score / formula that incorporates the proposed conditions and test it on the data.",
+      "answer_sentence": "A standardised logistic model on weather gives validation AUC 0.621; the safest quintile has a 0% poor-day rate vs 0.6% for the riskiest.",
+      "owner": "C"
+    }
   ],
-  "row_unit": "",
-  "target": "",
-  "decision_time": "",
-  "useless_columns": [],
-  "join_keys": [],
-  "entity_risk": "",
-  "native_graph": null,
-  "graph_kind": null,
-  "graph_reason": "",
-  "split_rule": "time if a time column exists, otherwise stratified 70/15/15",
-  "train_end": "",
-  "val_end": "",
-  "model_needed": null
+  "row_unit": "one row per (timestamp, station) hourly AQHI reading",
+  "target": "aqhi (numeric, 1-10+ per station-hour)",
+  "decision_time": "hourly reading; weather joined on the same calendar day (HKT)",
+  "useless_columns": ["Note rows (top of CSV)", "Hour='Daily Max' summary row"],
+  "join_keys": ["timestamp (date+hour, HKT)", "station name", "calendar date (weather join)"],
+  "entity_risk": "Same station under two codes; solved by using a single EPD station name list (18 stations). No alias merges were needed.",
+  "native_graph": false,
+  "graph_kind": "none",
+  "graph_reason": "The AQHI table is a spatiotemporal panel keyed by (timestamp, station). Stations have fixed identities but there is no edge list or shared real-world graph id in the provided files; a kNN graph on feature columns is disallowed. Time-series and regression are the appropriate tools.",
+  "split_rule": "time: train before 2025, validate 2025 (weather overlap 2023-2025)",
+  "train_end": "2025-01-01",
+  "val_end": "2026-01-01",
+  "model_needed": true
 }

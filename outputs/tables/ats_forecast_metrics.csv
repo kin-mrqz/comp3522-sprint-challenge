@@ -1,0 +1,3 @@
+model,mae,rmse,n
+seasonal_naive,0.514,0.583,22
+ets_holt_winters,0.369,0.46,23
