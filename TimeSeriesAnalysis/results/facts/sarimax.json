@@ -1,0 +1,36 @@
+{
+  "best_name": "sarimax_fourier2_dow_sarma_a12_P1",
+  "best_exog_set": "fourier2_dow_sarma",
+  "best_k_fourier": 2,
+  "best_p": 1,
+  "best_q": 2,
+  "best_seasonal_order": [
+    1,
+    0,
+    0,
+    7
+  ],
+  "best_aic": 1777.5908186120896,
+  "best_bic": 1857.5669728880991,
+  "best_lb_14": 0.35647789355403064,
+  "best_lb_21": 0.48880476923359206,
+  "best_lb_30": 0.19827607710636433,
+  "best_arch_p": 0.000245325762058707,
+  "best_jb_p": 5.2353642027076235e-101,
+  "best_val_rmse": 0.8451991467519734,
+  "best_val_mae": 0.6720789083234802,
+  "best_val_coverage": 0.9611940298507463,
+  "n_adequate": 8,
+  "trend_in_model_per_year": 0.021150992248025555,
+  "trend_in_model_p": 0.800625752351997,
+  "dow_effects": {
+    "Mon": 0.0,
+    "Tue": -0.013884573724712345,
+    "Wed": 0.05498603773457231,
+    "Thu": 0.036030364049306304,
+    "Fri": 0.05170479795680141,
+    "Sat": 0.007001297380357715,
+    "Sun": 0.042574934598721796
+  },
+  "annual_amplitude": 1.5150894912011557
+}

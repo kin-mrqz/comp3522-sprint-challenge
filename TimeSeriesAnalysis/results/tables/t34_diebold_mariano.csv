@@ -1,0 +1,8 @@
+model,vs,dm_stat,dm_p,n
+month_clim,snaive365,-4.24001,2.23508e-05,365
+"SARIMAX(1,2) fourier2_dow_sarma",snaive365,-3.97433,7.05779e-05,365
+"SARIMA(1, 0, 3)x(2, 0, 0, 7)",snaive365,-2.48449,0.0129737,365
+"ARIMA(3, 0, 0)",snaive365,-2.46682,0.013632,365
+mean,snaive365,-2.46637,0.013649,365
+snaive7,snaive365,-1.57289,0.115745,365
+ETS HW_add_annual365,snaive365,0.624366,0.532388,365

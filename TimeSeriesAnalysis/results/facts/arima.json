@@ -1,0 +1,22 @@
+{
+  "best_name": "arima_300",
+  "best_order": [
+    3,
+    0,
+    0
+  ],
+  "best_aic": 1802.273990174322,
+  "best_bic": 1827.2665383855751,
+  "best_lb_14": 0.006821242338512362,
+  "best_lb_21": 0.043480698150108146,
+  "best_lb_30": 0.03414253281253979,
+  "best_arch_p": 0.000257058151734612,
+  "best_val_rmse": 0.9400171125566429,
+  "best_val_mae": 0.7896179504569434,
+  "best_val_coverage": 0.982089552238806,
+  "n_adequate": 0,
+  "arima_adequate": false,
+  "selection_rule": "No plain ARIMA passed Ljung-Box K=14,21,30; the lowest-AIC non-boundary fit is carried only as the ARIMA representative",
+  "d0_aic_min": 1797.7907535851195,
+  "d1_aic_min": 1804.0749722759515
+}

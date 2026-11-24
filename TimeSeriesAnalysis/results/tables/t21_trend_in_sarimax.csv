@@ -1,0 +1,2 @@
+model,trend_per_year,std_error,z,p_value
+sarimax_fourier2_dow_trend_a11,0.021151,0.0837539,0.252537,0.800626

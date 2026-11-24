@@ -1,0 +1,4 @@
+test,stat,z,p_value,slope_per_year,note
+Mann-Kendall on monthly means,-51,-0.458523,0.646577,,supplementary
+Sen slope on monthly means,-0.00289617,,,-0.034754,supplementary
+Sen 95% interval (per month),,,,,-0.2138 to 0.1387 per year

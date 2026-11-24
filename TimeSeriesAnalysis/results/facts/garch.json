@@ -1,0 +1,57 @@
+{
+  "best_name": "GARCH11_t",
+  "best_aic": 1587.4294921775045,
+  "best_bic": 1607.3348844592954,
+  "persistence": 0.9434092118407116,
+  "half_life_days": 11.898471738659982,
+  "unconditional_vol": 0.7319907144179059,
+  "arch_lm_p_10": 0.000245325762058707,
+  "n_adequate": 6,
+  "var": [
+    {
+      "model": "GARCH11_t",
+      "coverage": 0.95,
+      "exceedances": 34,
+      "n": 365,
+      "expected": 18.250000000000018,
+      "rate": 0.09315068493150686,
+      "kupiec_p": 0.0006826988590428408,
+      "pinball": 0.12025784650170081,
+      "mean_sigma": 0.8549002452477652
+    },
+    {
+      "model": "GARCH11_t",
+      "coverage": 0.99,
+      "exceedances": 8,
+      "n": 365,
+      "expected": 3.650000000000003,
+      "rate": 0.021917808219178082,
+      "kupiec_p": 0.048056540548552476,
+      "pinball": 0.03585935401218078,
+      "mean_sigma": 0.8549002452477652
+    },
+    {
+      "model": "Constant",
+      "coverage": 0.95,
+      "exceedances": 66,
+      "n": 365,
+      "expected": 18.250000000000018,
+      "rate": 0.18082191780821918,
+      "kupiec_p": 2.1625156755200213e-19,
+      "pinball": 0.15904863445095557,
+      "mean_sigma": 0.5480818056665927
+    },
+    {
+      "model": "Constant",
+      "coverage": 0.99,
+      "exceedances": 28,
+      "n": 365,
+      "expected": 3.650000000000003,
+      "rate": 0.07671232876712329,
+      "kupiec_p": 2.610094487967833e-16,
+      "pinball": 0.055075184634088205,
+      "mean_sigma": 0.5480818056665927
+    }
+  ],
+  "mean_forecast_rmse_2025": 0.9556249668143912
+}

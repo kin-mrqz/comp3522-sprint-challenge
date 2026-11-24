@@ -1,0 +1,13 @@
+series,test,regression,stat,p_value,note
+level,KPSS,c,0.0951005,0.1,supplementary
+level,KPSS,ct,0.0926265,0.1,supplementary
+level,Phillips-Perron,c,-9.86046,4.13377e-24,supplementary
+log_level,KPSS,c,0.104342,0.1,supplementary
+log_level,KPSS,ct,0.100226,0.1,supplementary
+log_level,Phillips-Perron,c,-9.14156,7.05323e-20,supplementary
+diff1,KPSS,c,0.0305372,0.1,supplementary
+diff1,KPSS,ct,0.0230796,0.1,supplementary
+diff1,Phillips-Perron,c,-39.1167,0,supplementary
+diff7,KPSS,c,0.0241028,0.1,supplementary
+diff7,KPSS,ct,0.0129033,0.1,supplementary
+diff7,Phillips-Perron,c,-10.8451,2.94221e-31,supplementary

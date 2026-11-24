@@ -1,0 +1,8 @@
+test,lag,stat,p_value,f_stat,f_p_value
+ARCH-LM,5,28.8638,2.46581e-05,5.90003,2.17843e-05
+ARCH-LM,10,33.2701,0.000245326,3.3991,0.000217562
+ARCH-LM,20,44.8759,0.00114703,2.29704,0.000993238
+Ljung-Box on squared residuals,7,35.7581,8.05237e-06,,
+Ljung-Box on squared residuals,14,44.8157,4.36996e-05,,
+Ljung-Box on squared residuals,21,50.7711,0.000284671,,
+Ljung-Box on squared residuals,30,54.4055,0.00414179,,
